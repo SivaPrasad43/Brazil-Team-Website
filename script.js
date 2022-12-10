@@ -36,7 +36,6 @@ function LoadTeam(data){
   var content = ""
   var players = ""
   var TeamBox = document.getElementById("team-container")
-  console.log(data)
   for(let i =0;i<data.length;i++){
     let title = data[i].position
     content = content + '<div class="h1 text-secondary text-center pt-3">'+title+'</div>'+
@@ -55,7 +54,6 @@ function LoadTeam(data){
                           '</div>'
     }
     content = content+players+'</div>'
-    console.log(content)
     players = ""
   }
   TeamBox.innerHTML = content
