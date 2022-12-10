@@ -207,8 +207,12 @@ footer{
     .next-match{
         height: 25%;
     }
+    .join-community-box{
+        position: relative;
+    }
     .join-community-box img{
-        width: 100%;
+        margin-top: 150px;
+        width: 95%;
     }
     .community-box{
         margin-top: 0px;
